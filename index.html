@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="website icon" href="images/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/slick.css">
+    <link rel="stylesheet" href="styles/slick-theme.css">
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/adaptive.css">
+    <title>Barber Club</title>
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <div class="header-logo">
+            <a href="#">
+                <a class="header-brand" href="#"><img src="images/logo.png" alt="logo">Barber club</a>
+            </a>
+        </div>
+        <div class="burger" id="burger">
+            <svg xmlns="http://www.w3.org/2000/svg"
+                 width="40px" height="22px">
+                <path fill-rule="evenodd" fill="rgb(130, 19, 40)"
+                      d="M0.0,0.0 L39.999,0.0 L39.999,1.999 L0.0,1.999 L0.0,0.0 Z"/>
+                <path fill-rule="evenodd" fill="rgb(130, 19, 40)"
+                      d="M0.0,10.0 L39.999,10.0 L39.999,12.0 L0.0,12.0 L0.0,10.0 Z"/>
+                <path fill-rule="evenodd" fill="rgb(130, 19, 40)"
+                      d="M0.0,19.999 L39.999,19.999 L39.999,21.999 L0.0,21.999 L0.0,19.999 Z"/>
+            </svg>
+        </div>
+        <nav class="menu" id="menu">
+            <div class="close">
+                <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                     x="0px" y="0px"
+                     viewBox="0 0 492 492" xml:space="preserve">
+                <g>
+	            <g>
+		        <path d="M300.188,246L484.14,62.04c5.06-5.064,7.852-11.82,7.86-19.024c0-7.208-2.792-13.972-7.86-19.028L468.02,7.872
+			    c-5.068-5.076-11.824-7.856-19.036-7.856c-7.2,0-13.956,2.78-19.024,7.856L246.008,191.82L62.048,7.872
+			    c-5.06-5.076-11.82-7.856-19.028-7.856c-7.2,0-13.96,2.78-19.02,7.856L7.872,23.988c-10.496,10.496-10.496,27.568,0,38.052
+			    L191.828,246L7.872,429.952c-5.064,5.072-7.852,11.828-7.852,19.032c0,7.204,2.788,13.96,7.852,19.028l16.124,16.116
+			    c5.06,5.072,11.824,7.856,19.02,7.856c7.208,0,13.968-2.784,19.028-7.856l183.96-183.952l183.952,183.952
+			    c5.068,5.072,11.824,7.856,19.024,7.856h0.008c7.204,0,13.96-2.784,19.028-7.856l16.12-16.116
+			    c5.06-5.064,7.852-11.824,7.852-19.028c0-7.204-2.792-13.96-7.852-19.028L300.188,246z"/>
+	            </g>
+                </g>
+                </svg>
+            </div>
+            <ul class="menu-items">
+                <li class="menu-item">
+                    <a class="effect" href="#aboutUs">О нас</a>
+                </li>
+                <li class="menu-item">
+                    <a class="effect" href="#service">Услуги</a>
+                </li>
+                <li class="menu-item">
+                    <a class="effect" href="#discount">Акции</a>
+                </li>
+                <li class="menu-item">
+                    <a class="effect" href="#masters">Наши мастера</a>
+                </li>
+                <li class="menu-item">
+                    <a class="effect" href="#contacts">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="menu-phone">
+            <a href="#">+380 (98) 816-93-96 </a>
+        </div>
+        <button type="button" class="header-button" id="orderCall"><img src="images/call.png" alt="">Заказать звонок</button>
+    </div>
+</header>
+
+<section class="main">
+
+    <div class="container">
+        <div class="main-info wow animate__backInRight">
+
+            <div class="main-info-title">
+                <h1>Barber Club <span>- место <br> для настоящих мужчин</span></h1>
+            </div>
+            <div class="main-info-text">
+                Создайте деловой имидж, который достоин Вас!
+                Получите скидку <span>15%</span> на ваш первый визит
+            </div>
+            <div class="main-action" id="enroll">
+                <button class="button">Записаться</button>
+            </div>
+
+        </div>
+        <div class="main-image wow animate__backInLeft">
+            <img src="images/man.png" alt="man">
+        </div>
+    </div>
+
+</section>
+
+<section class="aboutUs" id="aboutUs">
+    <div class="container">
+        <div class="aboutUs-image wow animate__backInLeft">
+            <img src="images/dark_mask.png" alt="dark">
+        </div>
+        <div class="aboutUs-blade wow animate__backInLeft">
+            <img src="images/blade.png" alt="">
+        </div>
+        <div class="aboutUs-info wow animate__backInRight">
+            <div class="aboutUs-info-title">
+                <h2>О нас</h2>
+            </div>
+            <div class="aboutUs-info-text">
+                У нас есть всё, что требуется настоящему мужчине: атмосфера брутальности и мужского духа,
+                профессионализм барберов и сохранение европейских традиций барберинга, а также отличный кофе и хорошая
+                компания.
+                <br>
+                <br>
+                Barber Club – это намного больше, чем просто мужская парикмахерская. Это место, где Вам помогут найти
+                свой собственный, неповторимый стиль. Стоит довериться мастерам Barber Club один раз, и, поверьте, новый
+                образ не оставит Вас равнодушным. Мужские стрижки и опасное бритье — это наш профиль, и мы уверены, что
+                наши барберы делают это лучше всех.
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="advantages">
+            <div class="advantage wow animate__backInLeft">
+                <div class="advantage-image">
+                    <img src="images/cup.png" alt="cup">
+                </div>
+                <div class="advantage-text">Мы предложим вам <br>
+                    чашечку кофе или чая
+                </div>
+            </div>
+            <div class="advantage wow animate__backInLeft">
+                <div class="advantage-image">
+                    <img src="images/grooming.png" alt="grooming">
+                </div>
+                <div class="advantage-text">Мы пострижем и побреем вас
+                    по всем европейским традициям
+                </div>
+            </div>
+            <div class="advantage wow animate__backInRight">
+                <div class="advantage-image">
+                    <img src="images/hairstyle.png" alt="hairstyle">
+                </div>
+                <div class="advantage-text">И скоро вы снова захотите
+                    вернуться в наш барбершоп
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="service" id="service">
+    <div class="container">
+        <div class="service-info">
+            <div class="service-info-title wow animate__backInLeft">
+                <h2>Наши услуги</h2>
+            </div>
+            <div class="service-info-chapter  wow animate__backInLeft">
+                <ul class="service-info-chapter-menu-items">
+                    <li class="service-info-chapter-menu-item" id="haircut">
+                        <a class="effect" href="#">Стрижка</a>
+                    </li>
+                    <li class="service-info-chapter-menu-item" id="shaving">
+                        <a class="effect" href="#">Бритье</a>
+                    </li>
+                    <li class="service-info-chapter-menu-item" id="complex">
+                        <a class="effect" href="#">Комплексные услуги</a>
+                    </li>
+                    <li class="service-info-chapter-menu-item" id="additional">
+                        <a class="effect" href="#">Дополнительные услуги</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="service-info-price" id="priceOne">
+                <table class="service-info-price-haircut">
+                    <tbody class="haircut-table">
+                    <tr class="haircut-table-tr">
+                        <td>Стрижка мужская</td>
+                        <td><span>Подбор стрижки, 2 мытья, укладка</span></td>
+                        <td>1400 руб.</td>
+                    </tr>
+                    <tr class="haircut-table-tr">
+                        <td>Стрижка удлиненная</td>
+                        <td><span>Подбор стрижки, 2 мытья, укладка</span></td>
+                        <td>2100 руб.</td>
+                    </tr>
+                    <tr class="haircut-table-tr">
+                        <td>Стрижка машинкой</td>
+                        <td><span>Без ножниц</span></td>
+                        <td>950 руб.</td>
+                    </tr>
+                    <tr class="haircut-table-tr">
+                        <td>Стрижка детская</td>
+                        <td><span>От 4 до 14 лет включительно,
+                            не удлиненная</span></td>
+                        <td>1100 руб.</td>
+                    </tr>
+                    <tr class="haircut-table-tr">
+                        <td class="last-table">Стрижка бороды</td>
+                        <td class="last-table"><span>С распариванием и окантовкой
+                            бритвой шаветт</span></td>
+                        <td class="last-table">950 руб.</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="service-info-price-two" id="priceTwo">
+                <table class="service-info-price-haircut">
+                    <tbody class="haircut-table">
+                    <tr class="haircut-table-tr">
+                        <td>Бритье бороды</td>
+                        <td><span>Дизайн бритья, мытье, укладка</span></td>
+                        <td>1800 руб.</td>
+                    </tr>
+                    <tr class="haircut-table-tr">
+                        <td>Бритье усов</td>
+                        <td><span>Дизайн бриться, мытье, укладка</span></td>
+                        <td>1400 руб.</td>
+                    </tr>
+                    <tr class="haircut-table-tr">
+                        <td>Борода под ноль</td>
+                        <td><span>Полное сбривание</span></td>
+                        <td>500 руб.</td>
+                    </tr>
+                    <tr class="haircut-table-tr">
+                        <td>Комплексное бритье</td>
+                        <td><span>Бритье и усов, и бороды</span></td>
+                        <td>2500 руб.</td>
+                    </tr>
+                    <tr class="haircut-table-tr">
+                        <td class="last-table">Стрижка VIP</td>
+                        <td class="last-table"><span>Улучшеная стрижка с подачей виски</span></td>
+                        <td class="last-table">4000 руб.</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="service-info-price-three" id="priceThree">
+                <table class="service-info-price-haircut">
+                    <tbody class="haircut-table">
+                    <tr class="haircut-table-tr">
+                        <td>Стрижка и бритье</td>
+                        <td><span>Побреем и пострижем за сеанс</span></td>
+                        <td>2000 руб.</td>
+                    </tr>
+                    <tr class="haircut-table-tr">
+                        <td>Стрижка и маска</td>
+                        <td><span>Мужская стрижка и очищающая маска</span></td>
+                        <td>2500 руб.</td>
+                    </tr>
+                    <tr class="haircut-table-tr">
+                        <td>Стрижка и воск</td>
+                        <td><span>Депиляция воском</span></td>
+                        <td>2700 руб.</td>
+                    </tr>
+                    <tr class="haircut-table-tr">
+                        <td>Бритье и укладка</td>
+                        <td><span>Побреем и сразу уложим
+                            вашу бороду</span></td>
+                        <td>1800 руб.</td>
+                    </tr>
+                    <tr class="haircut-table-tr">
+                        <td class="last-table">Все включено</td>
+                        <td class="last-table"><span>Бритье, стрижка,
+                            маска и укладка</span></td>
+                        <td class="last-table">400 руб.</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="service-info-price-four" id="priceFour">
+                <table class="service-info-price-haircut">
+                    <tbody class="haircut-table">
+                    <tr class="haircut-table-tr">
+                        <td>Советы по уходу</td>
+                        <td><span>Консультации по уходу за бородой</span></td>
+                        <td>500 руб.</td>
+                    </tr>
+                    <tr class="haircut-table-tr">
+                        <td>Набор бальзамов</td>
+                        <td><span>Бальзамы для пушистой бороды</span></td>
+                        <td>1700 руб.</td>
+                    </tr>
+                    <tr class="haircut-table-tr">
+                        <td>Набор масок</td>
+                        <td><span>Уходовые маски</span></td>
+                        <td>800 руб.</td>
+                    </tr>
+                    <tr class="haircut-table-tr">
+                        <td>Подача виски</td>
+                        <td><span>Подача виски при стрижке, со льдом</span></td>
+                        <td>300 руб.</td>
+                    </tr>
+                    <tr class="haircut-table-tr">
+                        <td class="last-table">Сертификат</td>
+                        <td class="last-table"><span>Подарочный сертификат</span></td>
+                        <td class="last-table">1000 руб.</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="service-info-button wow animate__backInLeft" id="serviceButton">
+                <button class="button">Записаться</button>
+            </div>
+        </div>
+        <div class="service-info-image wow animate__backInRight">
+            <img src="images/dark.png" alt="">
+        </div>
+    </div>
+</section>
+
+<section class="masters" id="masters">
+    <div class="container">
+        <div class="masters-info">
+            <div class="masters-info-title  wow animate__backInLeft">
+                <h2>Наши мастера</h2>
+            </div>
+            <div class="masters-info-text  wow animate__backInRight">
+                <p>Вот они, простые герои, несущие в мир стиль и безупречный внешний вид.
+                    Команда Barber Club каждый день трудится над тем, чтобы создавать и поддерживать ваш индивидуальный
+                    стиль, подчеркивать характер и превращать недостатки в достоинства.</p>
+            </div>
+        </div>
+        <div class="slider  wow animate__backInLeft">
+            <div class="barber"><img src="images/alex.png" alt="1">
+                <p class="nameBarber">Барбер Алексей</p>
+                <a class="entry-title" id="entryTitleOne">Записаться <img class="entry-image" src="images/right.png" alt=""></a>
+            </div>
+            <div class="barber"><img src="images/roman.png" alt="2">
+                <p class="nameBarber">Барбер Роман</p>
+                <a class="entry-title" id="entryTitleTwo">Записаться <img class="entry-image" src="images/right.png" alt=""></a>
+            </div>
+            <div class="barber"><img src="images/alex.png" alt="3">
+                <p class="nameBarber">Барбер Алексей</p>
+                <a class="entry-title" id="entryTitleThree">Записаться <img class="entry-image" src="images/right.png" alt=""></a></div>
+            <div class="barber"><img src="images/roman.png" alt="4">
+                <p class="nameBarber">Барбер Роман</p>
+                <a class="entry-title" id="entryTitleFour">Записаться <img class="entry-image" src="images/right.png" alt=""></a></div>
+            <div class="barber"><img src="images/alex.png" alt="5">
+                <p class="nameBarber">Барбер Алексей</p>
+                <a class="entry-title" id="entryTitleFive">Записаться <img class="entry-image" src="images/right.png" alt=""></a></div>
+            <div class="barber"><img src="images/roman.png" alt="6">
+                <p class="nameBarber">Барбер Роман</p>
+                <a class="entry-title" id="entryTitleSix">Записаться <img class="entry-image" src="images/right.png" alt=""></a></div>
+        </div>
+    </div>
+</section>
+
+<section class="discount" id="discount">
+    <div class="container">
+        <div class="discount-info  wow animate__backInLeft">
+            <div class="discount-info-title">
+                <h2>Дарим скидку</h2>
+            </div>
+            <div class="discount-info-disc">
+                <span>-15%</span>
+                <div class="discount-info-text">
+                    Создайте деловой имидж, который достоин Вас!
+                    Получите скидку на ваш первый визит.
+                </div>
+            </div>
+            <div class="discount-button" id="disc">
+                <button class="button">Получить скидку</button>
+            </div>
+        </div>
+        <div class="discount-image  wow animate__backInRight">
+            <img src="images/guy.png" alt="man">
+        </div>
+    </div>
+</section>
+
+<section class="social" id="contacts">
+    <div class="container">
+        <div class="social-contacts  wow animate__backInRight">
+            <div class="social-contacts-title">Подписывайтесь на наш instagram</div>
+            <div class="social-contacts-link">
+                <a class="social-contacts-link" href="https://www.instagram.com/_thebarbersclub/"><img
+                        src="images/instagram.png" alt="">@Barber_Club</a>
+            </div>
+            <div class="social-contacts-button">
+                <button class="button">Перейти в профиль</button>
+            </div>
+        </div>
+        <div class="social-slider  wow animate__backInLeft">
+            <div class="container">
+                <div class="multiple-items">
+                    <div class="inst-slide">
+                        <img src="images/inst_one.png" alt="">
+                    </div>
+                    <div class="inst-slide">
+                        <img src="images/inst_two.png" alt="">
+                    </div>
+                    <div class="inst-slide">
+                        <img src="images/inst_three.png" alt="">
+                    </div>
+                    <div class="inst-slide">
+                        <img src="images/inst_four.png" alt="">
+                    </div>
+                    <div class="inst-slide">
+                        <img src="images/inst_five.png" alt="">
+                    </div>
+                    <div class="inst-slide">
+                        <img src="images/inst_three.png" alt="">
+                    </div>
+                    <div class="inst-slide">
+                        <img src="images/inst_one.png" alt="">
+                    </div>
+                    <div class="inst-slide">
+                        <img src="images/inst_five.png" alt="">
+                    </div>
+                    <div class="inst-slide">
+                        <img src="images/inst_three.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="contacts">
+    <div class="container">
+        <h2 class="contacts-title wow animate__backInLeft">Контакты</h2>
+        <div class="cont">
+            <div class="contacts-info  wow animate__backInRight">
+                <div class="contacts-info-logo"><a href="#">
+                    <a class="header-brand" href="#"><img src="images/logo.png" alt="logo">Barber club</a>
+                </a></div>
+                <div class="contacts-info-address">
+                    Адрес барбершопа:
+                    <br>
+                    <span>г. Киев, ул. Липинского, <br>
+                Офисный центр «Леонардо»</span>
+                </div>
+                <div class="contacts-info-timeToWork">
+                    Время работы
+                    <br>
+                    <span>Пн-Вс 10:00-21:00</span>
+                </div>
+                <div class="contacts-info-social">
+                    <img class="soc" src="images/facebook.png" alt="facebook">
+                    <img class="soc" src="images/insta.png" alt="insta">
+                    <img class="soc" src="images/youtube.png" alt="youtube">
+                </div>
+                <div class="contacts-info-mail">
+                    <a href="#">info@barberclub.ru</a>
+                </div>
+                <div class="contacts-info-phone">
+                    <a href="#">+7 912 816-93-96</a>
+                </div>
+                <div class="contacts-info-button" id="contactButton">
+                    <button type="button" class="footer-button"><img src="images/call.png" alt="">Заказать звонок
+                    </button>
+                </div>
+            </div>
+            <div class="map  wow animate__backInRight" style="position:relative;overflow:hidden;"><a
+                    href="https://yandex.ru/maps/org/delovoy_tsentr_leonardo/1206145198/?utm_medium=mapframe&utm_source=maps"
+                    style="color:black;font-size:12px;position:absolute;top:0;">Деловой центр Леонардо</a><a
+                    href="https://yandex.ru/maps/143/kyiv/category/business_center/184107509/?utm_medium=mapframe&utm_source=maps"
+                    style="color:black;font-size:12px;position:absolute;top:14px;">Бизнес-центр в Киеве</a>
+                <iframe src="https://yandex.ru/map-widget/v1/?ll=30.512156%2C50.445732&mode=search&oid=1206145198&ol=biz&sctx=ZAAAAAgBEAAaKAoSCRR5knTNUD5AEfTF3osv%2BE1AEhIJZVJDG4CN7z8RCOkpcoi40j8iBgABAgMEBSgKOABAAkgBYityZWFycj1zY2hlbWVfTG9jYWwvR2VvL0VuYWJsZUJlYXV0eUZpbHRlcj0xagJydZ0BzcxMPaABAKgBAL0BbiYW88IBBa6hkb8E6gEA8gEA%2BAEAggJY0LMuINCa0LjQtdCyLCDRg9C7LiDQm9C40L%2FQuNC90YHQutC%2B0LPQviwg0J7RhNC40YHQvdGL0Lkg0YbQtdC90YLRgCDCq9Cb0LXQvtC90LDRgNC00L7Cu4oCAJICAzE0M5oCDGRlc2t0b3AtbWFwcw%3D%3D&sll=30.512156%2C50.445732&sspn=0.015407%2C0.005816&text=%D0%B3.%20%D0%9A%D0%B8%D0%B5%D0%B2%2C%20%D1%83%D0%BB.%20%D0%9B%D0%B8%D0%BF%D0%B8%D0%BD%D1%81%D0%BA%D0%BE%D0%B3%D0%BE%2C%20%D0%9E%D1%84%D0%B8%D1%81%D0%BD%D1%8B%D0%B9%20%D1%86%D0%B5%D0%BD%D1%82%D1%80%20%C2%AB%D0%9B%D0%B5%D0%BE%D0%BD%D0%B0%D1%80%D0%B4%D0%BE%C2%BB&z=17"
+                        width="852" height="523" allowfullscreen="true" style="position:relative;"></iframe>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-rights">
+                    © Все права защищены
+                </div>
+            </div>
+        </footer>
+    </div>
+</section>
+
+<div class="popup" id="popup">
+    <div class="popup-content">
+        <span class="popup-content-close" id="popupClose">&times;</span>
+        <p class="popup-content-info">Просто запишитесь в наш барбершоп и приходите – скидку мы применим после
+            осуществления услуги</p>
+        <button class="popup-content-ok-button" id="okButton">ОК</button>
+    </div>
+</div>
+
+
+<div class="call" id="call">
+    <div class="call-content">
+        <div class="call-blade">
+            <img src="images/blade2.png" alt="bladeTwo">
+        </div>
+        <span class="call-content-close" id="callClose">&times;</span>
+        <div class="сal-content-title">Заказать звонок</div>
+        <div class="call-content-info">Мы перезвоним Вам в течении 5 минут.</div>
+        <div class="call-content-forms">
+            <input class="call-content-forms-input-name" type="text" id="name" placeholder="Ваше имя">
+            <div class="error-input">Введите имя</div>
+            <input class="call-content-forms-input-number" type="text" id="number" placeholder="Ваш номер телефона">
+            <div class="error-input">Введите номер</div>
+            <button type="button" class="call-content-ok-button" id="callButton">Отправить заявку</button>
+        </div>
+        </div>
+</div>
+
+<div class="success" id="success">
+    <div class="success-content" id="successContent">
+        <div class="success-blade">
+            <img src="images/blade2.png" alt="bladeTwo">
+        </div>
+        <span class="success-content-close" id="successClose">&times;</span>
+        <div class="success-content-title">Спасибо за ваше обращение!</div>
+</div>
+</div>
+
+<div class="application" id="application">
+    <div class="application-content">
+        <div class="application-scissors">
+            <img src="images/scissors.png" alt="scissors">
+        </div>
+        <div class="application-hairdresser">
+            <img src="images/hairdresser.png" alt="hairdresser">
+        </div>
+        <span class="application-content-close" id="applicationClose">&times;</span>
+        <div class="application-content-forms" id="applicationForms">
+            <div class="application-content-title">Оформить заявку</div>
+            <div class="application-content-info">Мы перезвоним Вам в течении 5 минут.</div>
+
+            <input class="application-content-forms-input-name" type="text" id="nameApp" placeholder="Ваше имя">
+            <div class="error-inputs-one">Введите имя</div>
+            <input class="application-content-forms-input-number" type="text" id="numberApp" placeholder="Ваш номер телефона">
+            <div class="error-inputs-two">Введите номер</div>
+            <input class="application-content-forms-input-service" type="text" id="serviceApp" placeholder="Выберите услугу">
+            <div class="error-inputs-one">Выберите услугу</div>
+            <input class="application-content-forms-input-masters" type="text" id="mastersApp" placeholder="Выберите мастера">
+            <div class="error-inputs-two">Выберите мастера</div>
+            <input class="application-content-forms-input-date" type="text" id="dateApp" placeholder="Введите дату">
+            <div class="error-inputs-one">Выберите дату</div>
+            <input class="application-content-forms-input-time" type="text" id="timeApp" placeholder="Введите время">
+            <div class="error-inputs-two">Выберите время</div>
+
+            <button type="button" class="application-content-ok-button" id="applicationButton">Отправить заявку</button>
+        </div>
+        <div class="application-content-success" id="applicationSuccess">
+            <div class="application-content-success-title">
+                Спасибо за Ваш заказ!
+            </div>
+            <div class="application-content-success-info">
+                Мы перезвоним вам для уточнения
+                данных в течении 5 минут.
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<script src="scripts/bootstrap.min.js"></script>
+<script src="scripts/jquery-3.7.0.min.js"></script>
+<script src="scripts/slick.min.js"></script>
+<script src="scripts/wow.min.js"></script>
+<script src="scripts/script.js"></script>
+</body>
+</html>

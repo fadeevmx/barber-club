@@ -1,0 +1,488 @@
+@media screen and (max-width: 1631px) {
+    .main {
+        background-position: bottom 180px right -10px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .main {
+        background-position: bottom 180px right -50px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+.header-button {
+    display: none;
+}
+
+    .aboutUs-blade img {
+        display: none;
+    }
+
+    .discount-image img {
+        margin-right: 0;
+    }
+
+}
+
+
+@media screen and (max-width: 1200px) {
+    .main {
+        background: none ;
+    }
+    .menu-phone {
+        display: none;
+    }
+
+
+    .entry-title {
+        top: 400px;
+        left: 283px;
+    }
+
+    .social-contacts {
+        display: block;
+    }
+
+    .social-contacts-title {
+        margin-bottom: 10px;
+    }
+
+    .social-contacts-link {
+        text-align: left;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media screen and (max-width: 799px) {
+    .nameBarber {
+        display: none;
+    }
+
+    .entry-title {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .header-logo {
+        margin-right: 10px;
+    }
+
+    .nameBarber {
+        bottom: 280px;
+        left: 40px;
+    }
+
+    .entry-title {
+        top: 295px;
+        left: 170px;
+    }
+
+    .main .container {
+        display: inline-block;
+        text-align: center;
+    }
+
+    .main {
+        display: block;
+        text-align: center;
+    }
+
+    .main-info-title {
+        display: block;
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .main-info-text {
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .main-image {
+        margin-left: 0;
+    }
+
+    .aboutUs .container {
+        display: inline-block;
+    }
+
+    .aboutUs {
+        display: block;
+        text-align: center;
+    }
+
+    .aboutUs-info-text {
+        max-width: 100%;
+    }
+
+    .aboutUs-info {
+        margin-left: 0;
+    }
+
+    .advantages {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0;
+    }
+
+    .service-info-image {
+        display: none;
+    }
+
+    .discount .container {
+        display: inline-block;
+    }
+
+    .discount-info {
+        margin-top: 180px;
+    }
+
+    .discount-image  {
+        text-align: end;
+    }
+
+    .discount-image img {
+        margin-right: 0;
+    }
+
+    .slider {
+        margin-bottom: 50px;
+    }
+
+    .aboutUs-info-title h2 {
+        margin-top: 20px;
+    }
+
+    .map {
+        display: none;
+    }
+
+    .cont {
+        justify-content: space-around;
+    }
+
+}
+
+@media screen and (max-width: 937px) {
+    .application-hairdresser {
+        display: none;
+    }
+
+    .application-scissors {
+        display: none;
+    }
+    .application-content {
+        width: 600px;
+        height: auto;
+    }
+
+    .application-content-forms {
+        margin-left: 0;
+    }
+
+    .application-content-ok-button {
+        margin-bottom: 20px;
+    }
+
+    .application-content-success {
+        margin-left: 90px;
+    }
+
+    .application-content-success-title {
+        margin-top: 64px;
+    }
+
+    .application-content-success-info {
+        margin-bottom: 50px;
+
+    }
+
+    .error-inputs-one {
+        left: 8%;
+    }
+
+    .error-inputs-two {
+        left: 54%;
+    }
+}
+
+
+@media screen and (max-width: 640px) {
+    .application-content {
+        width: 400px;
+        height: auto;
+        display: block;
+    }
+
+    .application-content-ok-button {
+        margin-left: -30px;
+    }
+
+    .application-content-success {
+        margin-left: 20px;
+    }
+
+    .error-inputs-one {
+        position: absolute;
+        left: 20%;
+    }
+
+    .error-inputs-two {
+        position: absolute;
+        left: 20%;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .menu-item a {
+        font-size: 24px;
+        color: white;
+    }
+
+    .menu {
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        left: 0;
+        top: 0;
+        background: #202020c9;
+        z-index: 9999;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+
+    }
+
+    .menu.open {
+        display: flex;
+        align-items: center;
+    }
+
+    .menu .close {
+        display: block;
+        width: 24px;
+        height: 24px;
+        fill: rgb(164, 107, 0);
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .discount {
+        display: block;
+        text-align: center;
+    }
+
+    .discount-info {
+        margin-left: 0;
+    }
+
+    .discount-info-disc {
+        display: block;
+        text-align: center;
+    }
+
+    .discount-info-disc span {
+        text-align: center;
+    }
+
+    .social-contacts-title {
+        font-size: 30px;
+    }
+
+    .social-contacts-title {
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .social-contacts-link {
+        text-align: center;
+    }
+
+    .social-contacts-button {
+        text-align: center;
+    }
+
+}
+
+
+@media screen and (max-width: 576px) {
+    .burger {
+        box-sizing: border-box;
+    }
+
+    .aboutUs-info {
+        margin: 0 5px;
+    }
+
+    .advantages {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .advantage {
+        justify-content: center;
+    }
+
+    .container table td {
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+
+    .container table td:last-child {
+        padding-bottom: 42px;
+    }
+
+
+    .container table td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        margin-right: 20px;
+    }
+
+    .haircut-table {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        text-align: end;
+    }
+
+    .slick-slider {
+        width: 100%;
+    }
+
+    .advantage-text {
+        max-width: 168px;
+    }
+
+}
+
+@media screen and (max-width: 505px) {
+    .service-info-chapter-menu-items {
+        margin-bottom: 70px;
+    }
+
+    .service-info-chapter-menu-item {
+        margin: 0 0 25px 0;
+    }
+
+    .service-info-price-haircut {
+        margin-right: 0;
+    }
+
+    .service {
+        display: flex;
+    }
+
+    .service .container {
+        display: block;
+    }
+
+    .service-info-chapter ul {
+        display: block;
+    }
+
+    .service-info-title {
+        text-align: center;
+    }
+
+    .service-info-chapter-menu-item {
+        text-align: center;
+    }
+
+
+    .service-info-price-haircut {
+        margin-right: 0;
+    }
+
+    .social-contacts {
+        margin-top: 50px;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+    .call-content{
+        width: 370px;
+    }
+}
+
+
+
+@media screen and (max-width: 390px) {
+    .haircut-table {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        text-align: end;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .button {
+        padding: 15px 40px;
+    }
+
+    .discount-info-title h2 {
+        font-size: 30px;
+    }
+
+    .discount-info-text {
+        font-size: 14px;
+    }
+
+    .masters-info-title h2 {
+        font-size: 30px;
+    }
+
+    .masters-info-text p {
+        font-size: 12px;
+    }
+
+    .service-info-title h2 {
+        font-size: 30px;
+    }
+
+    .service-info-chapter-menu-item {
+        font-size: 14px;
+    }
+
+    .aboutUs-info-title h2 {
+        font-size: 30px;
+    }
+
+    .aboutUs-info-text {
+        font-size: 12px;
+    }
+
+
+    .advantage-text {
+        font-size: 13px;
+    }
+
+    .main-info-text {
+        font-size: 16px;
+    }
+}
